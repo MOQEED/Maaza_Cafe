@@ -4,6 +4,16 @@ A comprehensive, high-performance cafe and restaurant operations web application
 
 ---
 
+## 🚀 Live Cloud Deployment (Production)
+
+| Layer | Platform | Live URL / Status |
+|---|---|---|
+| **Frontend Web App** | **Vercel** | **[https://maaza-cafe.vercel.app](https://maaza-cafe.vercel.app)** |
+| **Backend REST API** | **Render** | **[https://maaza-cafe-backend.onrender.com](https://maaza-cafe-backend.onrender.com)** |
+| **Database** | **MongoDB Atlas** | `Connected (Cluster: maaza_cafe)` |
+
+---
+
 ## 🛠️ Technologies Used
 
 ### Frontend
