@@ -18,6 +18,7 @@ import {
 } from 'react-icons/fi';
 import { useAuth } from '../../context/useAuth';
 import { getThemePreference, setThemePreference } from '../../utils/cookies';
+import InstallAppButton from './InstallAppButton';
 
 export default function Navbar() {
   const location = useLocation();
@@ -111,7 +112,10 @@ export default function Navbar() {
           </nav>
 
           {/* Right Action Items */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            {/* Install App Button */}
+            <InstallAppButton />
+
             {/* Dark Mode Icon */}
             <button
               onClick={toggleDarkMode}
